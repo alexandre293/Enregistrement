@@ -1,0 +1,12 @@
+body   {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;
+    padding: 3%;  
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+}
