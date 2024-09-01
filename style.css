@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 body   {
     background-image: url(img/logo.png);
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: top right;
     padding: 3%;  
+    font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -51,5 +54,84 @@ form {
     color: black;
     text-decoration: none;
     padding: 1%;
+}
 
+.active {
+    color: white;
+    border-bottom:2px solid orange;
+}
+
+.sign-in:hover, .sign-up:hover {
+    color: #e1e;
+}
+
+.fields p {
+    color:#bbb;
+    font-size: 18px;
+}
+
+.fields input {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    background-color: #60428e;
+    color: orange;
+    opacity: 0.9;
+}
+
+.groupe-input {
+    text-align: center;
+}
+
+.groupe-input p {
+    display:inline;
+    padding:5px;
+}
+
+.groupe-input input {
+    width: auto;
+}
+
+.about-child {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 10px 5px;
+    background-color: #60428e;
+    text-align: left;
+    border: none;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.my-form p {
+    color: #bbb;
+}
+
+.button {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px 5px;
+    background-color: orange;
+    color: black;   
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.button:hover {
+    color: orange;
+    background-color: black;
+    cursor: pointer;
+}
+
+form hr {
+    width: 90%;
+    height: 0px;
+    filter: blur(2px);
 }

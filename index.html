@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enregistrement</title>
 </head>
+
 <body>
     <h1 class="enregistrement"> Enregistrement sur nôtres sites </h1>
     <hr>
-    <p> Bonjour! Nous sommes très heureux que <i>Vous</i> ayez décidé de nous rejoindre ! <br> Veuillez remplir le formulaire d'inscription ci-dessous</p>
+    <p> Bonjour! Nous sommes très heureux que <i>Vous</i> ayez décidé de nous rejoindre ! <br> Veuillez remplir le
+        formulaire d'inscription ci-dessous</p>
 
-    <form action="#">
+    <form action="#" class="my-form">
         <div class="action">
             <a class="sign-in" href="#">Entrée</a>
             <a class="sign-up active" href="#">Enregistrement</a>
         </div>
+
+        <div class="fields">
+            <p>Imagine t'on nom d'utilisateur</p>
+            <input type="text" placeholder="Nom de utilisateur">
+
+            <p>Imagine t'on mot de passe</p>
+            <input type="text" placeholder="Nom de utilisateur">
+            
+        </div>
+
+        <p>Choisi t'on sexe</p>
+        <div class="groupe-input">
+            <input type="radio" name="sexe">
+            <p>Homme</p>
+            <input type="radio" name="sexe">
+            <p>Femme</p>
+        </div>
+
+        <p> Choisie t'es course</p>
+        <div class="groupe-input">
+            <input type="checkbox">
+            <p>Frontend</p>
+            <input type="checkbox">
+            <p>Roblox</p>
+            <input type="checkbox">
+            <p>Figma</p>
+            <input type="checkbox">
+            <p>Scratch</p>
+            <input type="checkbox">
+            <p>Python</p>
+            <input type="checkbox">
+            <p>Unity</p>
+        </div>
+
+        <p> Raconte ta vie </p>
+        <textarea placeholder="Raconte ta vie" rows="5" cols="50" class="about-child"></textarea>
+
+        <input type="button" value="Enregistrement" class="button">
+        <hr>
         
+
     </form>
-    
+
 </body>
-</html>
+
+</html> 
